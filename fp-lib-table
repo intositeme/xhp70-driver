@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name xhp70-driver)(type KiCad)(uri ${KIPRJMOD}/xhp70-driver.pretty)(options "")(descr ""))
-  (lib (name Transistor_FET)(type KiCad)(uri "D:/_stuff/XHP70 driver/xhp70-driver/xhp70-driver.pretty")(options "")(descr ""))
+  (lib (name Transistor_FET)(type KiCad)(uri "D:/_stuff/XHP70 driver/xhp70-driver/xhp70-driver.pretty")(options "")(descr "")(disabled))
 )

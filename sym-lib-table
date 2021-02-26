@@ -1,4 +1,4 @@
 (sym_lib_table
   (lib (name LED-driver)(type Legacy)(uri ${KIPRJMOD}/LED-driver.lib)(options "")(descr ""))
-  (lib (name Transistor_FET)(type Legacy)(uri "D:/_stuff/XHP70 driver/xhp70-driver/Transistor_FET.lib")(options "")(descr ""))
+  (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/Transistor_FET.lib)(options "")(descr ""))
 )

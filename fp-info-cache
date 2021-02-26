@@ -1,4 +1,4 @@
-19087382776949359
+19084952705723130
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -300,20 +300,6 @@ battery CR-3032 coin cell vertical
 0
 2
 2
-Battery_Connector
-2p Battery Connector Female
-
-
-0
-2
-2
-Battery_Connector
-2p Battery Connector Male
-
-
-0
-4
-4
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -82270,13 +82256,6 @@ transformer flyback
 0
 10
 10
-Transistor_FET
-AL8871Q
-
-
-0
-17
-17
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -83054,3 +83033,10 @@ AL8871Q
 0
 17
 17
+xhp70-driver
+TestPoint_2Pad_4.0x4.0mm
+SMD rectangular pad as test Point, square 4.0mm side length
+test point SMD pad rectangle square
+0
+1
+1
