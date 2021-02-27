@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/isaacwong/Documents/myPlayLab/01_Stuff/xhp70-driver/xhp70-driver.sch</source>
+    <date>2021 February 28, Sunday 00:15:13</date>
+    <tool>Eeschema (5.1.9-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>xhp70-driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>AL8871Q</value>
+      <footprint>xhp70-driver:AL8871Q</footprint>
+      <libsource lib="LED-driver" part="AL8871Q" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031458B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>0.09</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">1W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60317199</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">X7R, 100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60318EA7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031A435</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>0.082</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">1W</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031AE07</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>INDUCTOR</value>
+      <footprint>Inductor_SMD:L_12x12mm_H8mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="INDUCTOR" description="Inductor symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031C7F1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4"> X7R, 100V, 1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60322E55</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>xhp70-driver:TestPoint_2Pad_4.0x4.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60323B1E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Thermistor_NTC" description="Temperature dependent resistor, negative temperature coefficient"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030A23F</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603196E2</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60319CB5</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031A6F3</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031AB28</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1.3K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031B105</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>LEMO2</value>
+      <footprint>xhp70-driver:TestPoint_2Pad_4.0x4.0mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="LEMO2" description="2-pin LEMO connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031DD4F</tstamp>
+    </comp>
+    <comp ref="H5">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_2.2mm_M2_ISO7380_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60327094</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ATtiny85-20SU</value>
+      <footprint>Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny85-20SU" description="20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIJ-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603982E6</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6039EB96</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>AVR-ISP-6</value>
+      <footprint>Connector_JST:JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A45FE</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NMOS_GDS</value>
+      <footprint>xhp70-driver:TO-220-3_Horizontal_TabUp-no-mounting-hole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NMOS_GDS" description="N-MOSFET transistor, gate/drain/source"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603205DA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>xhp70-driver:TO-220-2_Horizontal_TabUp-no-mounting-hole</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040243C</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4"> X7R, 100V, 1206</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60408A16</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">X7R, 100V, 0805</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60408D1F</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">X7R, 100V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60409AFB</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>330pF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Field4">NPO, 50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6040A685</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="LEMO2">
+      <description>2-pin LEMO connector</description>
+      <docs> ~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">LEMO2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NMOS_GDS">
+      <description>N-MOSFET transistor, gate/drain/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GDS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Thermistor_NTC">
+      <description>Temperature dependent resistor, negative temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*NTC*</fp>
+        <fp>*Thermistor*</fp>
+        <fp>PIN?ARRAY*</fp>
+        <fp>bornier*</fp>
+        <fp>*Terminal?Block*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TH</field>
+        <field name="Value">Thermistor_NTC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED-driver" part="AL8871Q">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AL8871Q</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CTRL" type="input"/>
+        <pin num="2" name="REF" type="output"/>
+        <pin num="3" name="NTC" type="input"/>
+        <pin num="4" name="COMP" type="BiDi"/>
+        <pin num="5" name="STATUS" type="output"/>
+        <pin num="6" name="SGND" type="power_out"/>
+        <pin num="7" name="PGND" type="power_out"/>
+        <pin num="8" name="N/C" type="output"/>
+        <pin num="9" name="N/C" type="power_out"/>
+        <pin num="10" name="DRV" type="output"/>
+        <pin num="11" name="BST" type="power_in"/>
+        <pin num="12" name="VIN" type="power_in"/>
+        <pin num="13" name="CS" type="input"/>
+        <pin num="14" name="FAULT" type="output"/>
+        <pin num="15" name="PWM" type="input"/>
+        <pin num="16" name="GI" type="input"/>
+        <pin num="17" name="PAD" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny25V-10SU">
+      <aliases>
+        <alias>ATtiny25-20SU</alias>
+        <alias>ATtiny45V-10SU</alias>
+        <alias>ATtiny45-20SU</alias>
+        <alias>ATtiny85V-10SU</alias>
+        <alias>ATtiny85-20SU</alias>
+      </aliases>
+      <description>10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIJ-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIJ*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny25V-10SU</field>
+        <field name="Footprint">Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PB5" type="BiDi"/>
+        <pin num="2" name="XTAL1/PB3" type="BiDi"/>
+        <pin num="3" name="XTAL2/PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <aliases>
+        <alias>L7806</alias>
+        <alias>L7808</alias>
+        <alias>L7885</alias>
+        <alias>L7809</alias>
+        <alias>L7812</alias>
+        <alias>L7815</alias>
+        <alias>L7818</alias>
+        <alias>L7824</alias>
+      </aliases>
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="INDUCTOR">
+      <description>Inductor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="LED-driver">
+      <uri>/Users/isaacwong/Documents/myPlayLab/01_Stuff/xhp70-driver/LED-driver.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/Library/Application Support/kicad/library/MCU_Microchip_ATtiny.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Library/Application Support/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/Library/Application Support/kicad/library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="2" name="PWM">
+      <node ref="U1" pin="15"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="3" name="Net-(R4-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="8" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad2)">
+      <node ref="U1" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="13" name="Batt+">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="14" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="16" name="Net-(J2-Pad2)">
+      <node ref="U2" pin="8"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad5)">
+      <node ref="U2" pin="1"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad3)">
+      <node ref="U2" pin="7"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad4)">
+      <node ref="U2" pin="5"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="20" name="Net-(Q1-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="L1" pin="2"/>
+    </net>
+  </nets>
+</export>
