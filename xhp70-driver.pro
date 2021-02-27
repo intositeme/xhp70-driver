@@ -1,4 +1,4 @@
-update=2021 February 20, Saturday 22:51:00
+update=2021 February 27, Saturday 20:56:49
 version=1
 last_client=kicad
 [general]
@@ -261,6 +261,17 @@ dPairViaGap=0.25
 Name=LED+
 Clearance=0.2
 TrackWidth=0.8
+ViaDiameter=0.8
+ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/3]
+Name=Thick
+Clearance=0.2
+TrackWidth=4
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3
