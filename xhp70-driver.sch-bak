@@ -264,32 +264,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 6450 4100 6550
 Wire Wire Line
-	4100 6550 4550 6550
-$Comp
-L Connector:Conn_01x02_Male J3
-U 1 1 603B34ED
-P 5200 7500
-F 0 "J3" H 5172 7382 50  0000 R CNN
-F 1 "Conn_01x02_Male" H 5172 7473 50  0000 R CNN
-F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 5200 7500 50  0001 C CNN
-F 3 "~" H 5200 7500 50  0001 C CNN
-	1    5200 7500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5000 7500 2150 7500
-Wire Wire Line
-	2150 7500 2150 5650
-Wire Wire Line
-	2100 5650 2150 5650
-Connection ~ 2150 5650
-Wire Wire Line
-	2150 5650 3250 5650
-Wire Wire Line
-	4550 6550 4550 7400
-Wire Wire Line
-	4550 7400 5000 7400
-Wire Wire Line
 	4300 6300 4300 6350
 Wire Wire Line
 	3850 6350 4300 6350
@@ -310,9 +284,6 @@ Wire Wire Line
 	5150 6550 5150 6500
 Wire Wire Line
 	5150 6500 5300 6500
-Connection ~ 4550 6550
-Wire Wire Line
-	4550 6550 5150 6550
 Wire Wire Line
 	4850 6250 4850 6400
 Wire Wire Line
@@ -583,4 +554,8 @@ Wire Wire Line
 Connection ~ 3450 1850
 Wire Wire Line
 	3450 1850 3900 1850
+Wire Wire Line
+	4100 6550 5150 6550
+Wire Wire Line
+	2100 5650 3250 5650
 $EndSCHEMATC
