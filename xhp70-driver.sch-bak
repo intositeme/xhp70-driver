@@ -251,11 +251,11 @@ Text GLabel 4400 2300 0    50   Input ~ 0
 PWM
 Text GLabel 3850 6650 2    50   Input ~ 0
 PWM
-Text GLabel 1800 5950 3    50   Input ~ 0
+Text GLabel 1800 6150 3    50   Input ~ 0
 GND
 Text GLabel 3250 7150 3    50   Input ~ 0
 GND
-Text GLabel 1500 5650 0    50   Input ~ 0
+Text GLabel 1100 5650 0    50   Input ~ 0
 Batt+
 Wire Wire Line
 	3250 5650 3250 5950
@@ -557,5 +557,42 @@ Wire Wire Line
 Wire Wire Line
 	4100 6550 5150 6550
 Wire Wire Line
-	2100 5650 3250 5650
+	2100 5650 2300 5650
+$Comp
+L Device:C C7
+U 1 1 6043B427
+P 1200 5800
+F 0 "C7" H 1315 5846 50  0000 L CNN
+F 1 "0.33uf" H 1315 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1238 5650 50  0001 C CNN
+F 3 "~" H 1200 5800 50  0001 C CNN
+	1    1200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 6043C0F6
+P 2300 5800
+F 0 "C8" H 2415 5846 50  0000 L CNN
+F 1 "0.1uf" H 2415 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 5650 50  0001 C CNN
+F 3 "~" H 2300 5800 50  0001 C CNN
+	1    2300 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 5650
+Wire Wire Line
+	2300 5650 3250 5650
+Wire Wire Line
+	1800 6150 1800 5950
+Wire Wire Line
+	1800 5950 2300 5950
+Connection ~ 1800 5950
+Wire Wire Line
+	1200 5650 1500 5650
+Wire Wire Line
+	1100 5650 1200 5650
+Connection ~ 1200 5650
+Wire Wire Line
+	1200 5950 1800 5950
 $EndSCHEMATC
