@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name LED-driver)(type Legacy)(uri ${KIPRJMOD}/LED-driver.lib)(options "")(descr ""))
   (lib (name Transistor_FET)(type Legacy)(uri ${KIPRJMOD}/Transistor_FET.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "/Users/isaacwong/Documents/myPlayLab/01_Stuff/kb-split/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
 )

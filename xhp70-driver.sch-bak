@@ -132,12 +132,12 @@ NoConn ~ 5900 2800
 $Comp
 L Device:Thermistor_NTC R5
 U 1 1 6030A23F
-P 2900 3400
-F 0 "R5" H 2998 3446 50  0000 L CNN
-F 1 "10K" H 2998 3355 50  0000 L CNN
-F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 2900 3450 50  0001 C CNN
-F 3 "~" H 2900 3450 50  0001 C CNN
-	1    2900 3400
+P 6350 5350
+F 0 "R5" H 6448 5396 50  0000 L CNN
+F 1 "10K" H 6448 5305 50  0000 L CNN
+F 2 "Connector_JST:JST_SH_BM02B-SRSS-TB_1x02-1MP_P1.00mm_Vertical" H 6350 5400 50  0001 C CNN
+F 3 "~" H 6350 5400 50  0001 C CNN
+	1    6350 5350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -187,12 +187,12 @@ $EndComp
 $Comp
 L Device:R R4
 U 1 1 6031B105
-P 2900 2900
-F 0 "R4" H 2970 2946 50  0000 L CNN
-F 1 "1.3K" H 2970 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 2900 50  0001 C CNN
-F 3 "~" H 2900 2900 50  0001 C CNN
-	1    2900 2900
+P 6350 4850
+F 0 "R4" H 6420 4896 50  0000 L CNN
+F 1 "1.3K" H 6420 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6280 4850 50  0001 C CNN
+F 3 "~" H 6350 4850 50  0001 C CNN
+	1    6350 4850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -251,11 +251,11 @@ Text GLabel 4400 2300 0    50   Input ~ 0
 PWM
 Text GLabel 3850 6650 2    50   Input ~ 0
 PWM
-Text GLabel 1800 5950 3    50   Input ~ 0
+Text GLabel 1800 6150 3    50   Input ~ 0
 GND
 Text GLabel 3250 7150 3    50   Input ~ 0
 GND
-Text GLabel 1500 5650 0    50   Input ~ 0
+Text GLabel 1100 5650 0    50   Input ~ 0
 Batt+
 Wire Wire Line
 	3250 5650 3250 5950
@@ -451,34 +451,18 @@ Wire Wire Line
 	3900 1850 3900 1900
 Connection ~ 4250 1850
 Wire Wire Line
-	2900 2750 4050 2750
+	6350 5000 6350 5100
 Wire Wire Line
-	2900 3050 2900 3150
-$Comp
-L power:GND #PWR0104
-U 1 1 6041CD87
-P 2900 3550
-F 0 "#PWR0104" H 2900 3300 50  0001 C CNN
-F 1 "GND" H 2905 3377 50  0000 C CNN
-F 2 "" H 2900 3550 50  0001 C CNN
-F 3 "" H 2900 3550 50  0001 C CNN
-	1    2900 3550
-	1    0    0    -1  
-$EndComp
+	6350 5100 6800 5100
 Wire Wire Line
-	2900 3150 3350 3150
+	6800 5100 6800 4850
+Connection ~ 6350 5100
 Wire Wire Line
-	3350 3150 3350 2900
-Wire Wire Line
-	3350 2900 4400 2900
-Connection ~ 2900 3150
-Wire Wire Line
-	2900 3150 2900 3250
+	6350 5100 6350 5200
 Wire Wire Line
 	4400 2450 4050 2450
 Wire Wire Line
 	4050 2450 4050 2600
-Connection ~ 4050 2750
 Wire Wire Line
 	4050 2750 4400 2750
 Wire Wire Line
@@ -557,9 +541,12 @@ Wire Wire Line
 Wire Wire Line
 	4100 6550 5150 6550
 Wire Wire Line
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 	2100 5650 3250 5650
 =======
+=======
+>>>>>>> rev.2a
 	2100 5650 2300 5650
 $Comp
 L Device:C C7
@@ -626,6 +613,11 @@ F 3 "" H 6350 4700 50  0001 C CNN
 	1    6350 4700
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+=======
+Text GLabel 6350 5500 3    50   Input ~ 0
+GND
+>>>>>>> rev.2a
 Text GLabel 6800 4850 2    50   Input ~ 0
 NTC
 Text GLabel 3850 6550 2    50   Input ~ 0
@@ -641,6 +633,31 @@ F 3 "~" H 8000 6260 50  0001 C CNN
 	1    8000 6000
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+=======
+$Comp
+L power:+5V #PWR0106
+U 1 1 604AEFBE
+P 8750 6100
+F 0 "#PWR0106" H 8750 5950 50  0001 C CNN
+F 1 "+5V" H 8765 6273 50  0000 C CNN
+F 2 "" H 8750 6100 50  0001 C CNN
+F 3 "" H 8750 6100 50  0001 C CNN
+	1    8750 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0107
+U 1 1 604AF574
+P 7350 6000
+F 0 "#PWR0107" H 7350 5850 50  0001 C CNN
+F 1 "+5V" H 7365 6173 50  0000 C CNN
+F 2 "" H 7350 6000 50  0001 C CNN
+F 3 "" H 7350 6000 50  0001 C CNN
+	1    7350 6000
+	1    0    0    -1  
+$EndComp
+>>>>>>> rev.2a
 Text GLabel 8300 5900 2    50   Input ~ 0
 EC_Int
 Wire Wire Line
@@ -657,6 +674,7 @@ Text GLabel 5000 6300 1    50   Input ~ 0
 EC_A
 Text GLabel 5200 6500 3    50   Input ~ 0
 EC_B
+<<<<<<< HEAD
 $Comp
 L power:GND #PWR?
 U 1 1 604E195D
@@ -697,4 +715,6 @@ $EndComp
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> rev.2a
 $EndSCHEMATC
