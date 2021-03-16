@@ -690,5 +690,11 @@ F 3 "" H 8750 6100 50  0001 C CNN
 	1    8750 6100
 	1    0    0    -1  
 $EndComp
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 $EndSCHEMATC

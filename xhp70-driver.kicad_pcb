@@ -4,7 +4,15 @@
     (thickness 1.6)
     (drawings 18)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
     (tracks 339)
+=======
+    (tracks 410)
+>>>>>>> Stashed changes
+=======
+    (tracks 410)
+>>>>>>> Stashed changes
 =======
     (tracks 410)
 >>>>>>> Stashed changes
@@ -129,6 +137,12 @@
   (net 18 EC_Int)
   (net 19 EC_B)
   (net 20 EC_A)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
   (net_class Default "This is the default net class."
@@ -140,7 +154,13 @@
     (uvia_drill 0.1)
     (add_net Batt+)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     (add_net EC_A)
     (add_net EC_B)
     (add_net EC_Int)
@@ -257,7 +277,15 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.95 0) (size 1 1.45) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 21 "Net-(C8-Pad1)"))
+=======
+      (net 15 +5V))
+>>>>>>> Stashed changes
+=======
+      (net 15 +5V))
+>>>>>>> Stashed changes
 =======
       (net 15 +5V))
 >>>>>>> Stashed changes
@@ -351,6 +379,8 @@
       (net 10 "Net-(J2-Pad5)"))
     (pad 4 smd roundrect (at 0.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 11 "Net-(J2-Pad4)"))
     (pad 3 smd roundrect (at -0.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 12 "Net-(J2-Pad3)"))
@@ -358,6 +388,20 @@
       (net 21 "Net-(C8-Pad1)"))
     (pad 1 smd roundrect (at -2.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 14 "Net-(J2-Pad1)"))
+=======
+=======
+>>>>>>> Stashed changes
+      (net 18 EC_Int))
+    (pad 3 smd roundrect (at -0.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+      (net 19 EC_B))
+    (pad 2 smd roundrect (at -1.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+      (net 15 +5V))
+    (pad 1 smd roundrect (at -2.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+      (net 20 EC_A))
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 =======
       (net 18 EC_Int))
     (pad 3 smd roundrect (at -0.5 1.325 270) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
@@ -527,7 +571,15 @@
     )
     (pad 3 smd rect (at 1 0 90) (size 0.9 0.8) (layers F.Cu F.Paste F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 21 "Net-(C8-Pad1)"))
+=======
+      (net 8 Batt+))
+>>>>>>> Stashed changes
+=======
+      (net 8 Batt+))
+>>>>>>> Stashed changes
 =======
       (net 8 Batt+))
 >>>>>>> Stashed changes
@@ -575,6 +627,8 @@
     )
     (pad 8 smd rect (at 3.65 -1.905 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 21 "Net-(C8-Pad1)"))
     (pad 7 smd rect (at 3.65 -0.635 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
       (net 12 "Net-(J2-Pad3)"))
@@ -589,6 +643,10 @@
     (pad 2 smd rect (at -3.65 -0.635 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
       (net 9 "Net-(U2-Pad2)"))
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       (net 15 +5V))
     (pad 7 smd rect (at 3.65 -0.635 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
       (net 19 EC_B))
@@ -602,6 +660,12 @@
       (net 10 PWM))
     (pad 2 smd rect (at -3.65 -0.635 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
       (net 16 NTC))
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (pad 1 smd rect (at -3.65 -1.905 90) (size 1.7 0.65) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(J2-Pad5)"))
@@ -635,9 +699,21 @@
       (net 1 GND))
     (pad 8 smd rect (at 2.275 2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 19 "Net-(U1-Pad8)"))
     (pad 9 smd rect (at 2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
       (net 20 "Net-(U1-Pad9)"))
+=======
+      (net 13 "Net-(U1-Pad8)"))
+    (pad 9 smd rect (at 2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
+      (net 14 "Net-(U1-Pad9)"))
+>>>>>>> Stashed changes
+=======
+      (net 13 "Net-(U1-Pad8)"))
+    (pad 9 smd rect (at 2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
+      (net 14 "Net-(U1-Pad9)"))
+>>>>>>> Stashed changes
 =======
       (net 13 "Net-(U1-Pad8)"))
     (pad 9 smd rect (at 2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
@@ -657,6 +733,8 @@
       (net 8 Batt+))
     (pad 4 smd rect (at -0.325 2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 16 "Net-(C6-Pad1)"))
     (pad 13 smd rect (at -0.325 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C3-Pad2)"))
@@ -673,6 +751,10 @@
     (pad 16 smd rect (at -2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
       (net 18 "Net-(R4-Pad1)"))
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
       (net 12 "Net-(C6-Pad1)"))
     (pad 13 smd rect (at -0.325 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(C3-Pad2)"))
@@ -688,6 +770,12 @@
       (net 17 "Net-(U1-Pad1)"))
     (pad 16 smd rect (at -2.275 -2.7 180) (size 0.35 1.4) (layers F.Cu F.Paste F.Mask)
       (net 17 "Net-(U1-Pad1)"))
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_SH_BM06B-SRSS-TB_1x06-1MP_P1.00mm_Vertical.wrl
       (at (xyz 0 0 0))
@@ -746,7 +834,15 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.5 1.325 180) (size 0.6 1.55) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 17 "Net-(R4-Pad2)"))
+=======
+      (net 16 NTC))
+>>>>>>> Stashed changes
+=======
+      (net 16 NTC))
+>>>>>>> Stashed changes
 =======
       (net 16 NTC))
 >>>>>>> Stashed changes
@@ -794,9 +890,21 @@
     )
     (pad 2 smd roundrect (at 0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2439004878048781)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 17 "Net-(R4-Pad2)"))
     (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2439004878048781)
       (net 18 "Net-(R4-Pad1)"))
+=======
+      (net 16 NTC))
+    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2439004878048781)
+      (net 15 +5V))
+>>>>>>> Stashed changes
+=======
+      (net 16 NTC))
+    (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2439004878048781)
+      (net 15 +5V))
+>>>>>>> Stashed changes
 =======
       (net 16 NTC))
     (pad 1 smd roundrect (at -0.9125 0 90) (size 1.025 1.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.2439004878048781)
@@ -1008,7 +1116,15 @@
       (net 3 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -4.95 0 90) (size 2.9 5.4) (layers F.Cu F.Paste F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 15 "Net-(C3-Pad1)"))
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
 =======
       (net 11 "Net-(C3-Pad1)"))
 >>>>>>> Stashed changes
@@ -1096,7 +1212,15 @@
       (net 2 "Net-(C3-Pad2)"))
     (pad 1 smd rect (at -3.25 -0.25 90) (size 4 4) (layers F.Cu F.Mask)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 15 "Net-(C3-Pad1)"))
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
 =======
       (net 11 "Net-(C3-Pad1)"))
 >>>>>>> Stashed changes
@@ -1131,7 +1255,15 @@
       (net 1 GND))
     (pad 1 smd roundrect (at -0.95 0 180) (size 1 1.45) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 16 "Net-(C6-Pad1)"))
+=======
+      (net 12 "Net-(C6-Pad1)"))
+>>>>>>> Stashed changes
+=======
+      (net 12 "Net-(C6-Pad1)"))
+>>>>>>> Stashed changes
 =======
       (net 12 "Net-(C6-Pad1)"))
 >>>>>>> Stashed changes
@@ -1243,7 +1375,15 @@
       (net 2 "Net-(C3-Pad2)"))
     (pad 1 smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1886769811320755)
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
       (net 15 "Net-(C3-Pad1)"))
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
+=======
+      (net 11 "Net-(C3-Pad1)"))
+>>>>>>> Stashed changes
 =======
       (net 11 "Net-(C3-Pad1)"))
 >>>>>>> Stashed changes
@@ -1407,6 +1547,8 @@
   )
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (gr_text "intosite\nLED driver rev.1b" (at 153.75 71.5) (layer B.SilkS) (tstamp 603AF6E4)
     (effects (font (size 1.1 1.1) (thickness 0.275)) (justify left mirror))
   )
@@ -1416,6 +1558,17 @@
     (effects (font (size 1.1 1.1) (thickness 0.275)) (justify left mirror))
   )
   (gr_text "intosite\nLED driver rev.2b" (at 117.25 53) (layer F.SilkS)
+>>>>>>> Stashed changes
+=======
+=======
+>>>>>>> Stashed changes
+  (gr_text "intosite\nLED driver rev.2b" (at 153.75 71.5) (layer B.SilkS) (tstamp 603AF6E4)
+    (effects (font (size 1.1 1.1) (thickness 0.275)) (justify left mirror))
+  )
+  (gr_text "intosite\nLED driver rev.2b" (at 117.25 53) (layer F.SilkS)
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (effects (font (size 1.1 1.1) (thickness 0.275)) (justify left))
   )
@@ -1597,6 +1750,8 @@
   (via (at 114.6 60.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 603AC738))
   (via (at 113.4 60.8) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 603AC739))
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (segment (start 123.347499 57.25) (end 123.347499 57.371216) (width 2.5) (layer B.Cu) (net 3))
   (segment (start 123.347499 58.360001) (end 123.347499 57.25) (width 2.5) (layer B.Cu) (net 3))
   (segment (start 124.067498 59.08) (end 123.347499 58.360001) (width 2.5) (layer B.Cu) (net 3))
@@ -1607,6 +1762,10 @@
   (segment (start 125 57.54) (end 123.46 56) (width 0.25) (layer F.Cu) (net 3))
   (segment (start 125 59.05) (end 125 57.54) (width 0.25) (layer F.Cu) (net 3))
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   (via (at 120.3 72.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 60513F98))
   (via (at 121.1 72.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 60513F99))
   (via (at 121.9 72.2) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 2) (tstamp 60513F9A))
@@ -1674,6 +1833,12 @@
   (via (at 122.95 58.65) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 6051530A))
   (via (at 123.8 60.1) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 6051530B))
   (via (at 123.4 59.35) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 3) (tstamp 6051530C))
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   (via (at 127.3 62.4) (size 0.8) (drill 0.4) (layers F.Cu B.Cu) (net 4))
   (segment (start 128.025001 61.674999) (end 127.3 62.4) (width 0.25) (layer F.Cu) (net 4))
@@ -1760,6 +1925,8 @@
   (segment (start 150.55 62.9) (end 150.55 60.25) (width 0.25) (layer B.Cu) (net 8))
   (segment (start 150.55 60.25) (end 150.55 59.85) (width 0.25) (layer B.Cu) (net 8))
   (segment (start 150.55 60.6) (end 150.55 60.25) (width 0.25) (layer B.Cu) (net 8))
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   (segment (start 142.699299 64.824989) (end 146.324989 64.824989) (width 0.25) (layer F.Cu) (net 10))
   (segment (start 150 68.5) (end 150.675 68.5) (width 0.25) (layer F.Cu) (net 10))
@@ -1863,6 +2030,10 @@
 
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 604404EF) (hatch edge 0.508)
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
   (segment (start 144 61.05) (end 144 58) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 143.25 61.8) (end 144 61.05) (width 0.25) (layer F.Cu) (net 8))
   (segment (start 146 58) (end 144 58) (width 3) (layer B.Cu) (net 8) (tstamp 605136F9))
@@ -1980,6 +2151,12 @@
 
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146FB) (hatch edge 0.508)
     (priority 4)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
@@ -1996,7 +2173,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 604404EC) (hatch edge 0.508)
+=======
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 605146F8) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 605146F8) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 605146F8) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2010,7 +2195,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 604404E9) (hatch edge 0.508)
+=======
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146F5) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146F5) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146F5) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2024,7 +2217,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 604404E6) (hatch edge 0.508)
+=======
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146F2) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146F2) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146F2) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2038,7 +2239,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 3) (net_name "Net-(D1-Pad2)") (layer B.Cu) (tstamp 604404E3) (hatch edge 0.508)
+=======
+  (zone (net 3) (net_name "Net-(D1-Pad2)") (layer B.Cu) (tstamp 605146EF) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 3) (net_name "Net-(D1-Pad2)") (layer B.Cu) (tstamp 605146EF) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 3) (net_name "Net-(D1-Pad2)") (layer B.Cu) (tstamp 605146EF) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2048,7 +2257,15 @@
     (polygon
       (pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         (xy 133 60.5) (xy 123.5 60.5) (xy 121.75 57.75) (xy 122 50) (xy 133 50)
+=======
+        (xy 136.9 60.5) (xy 123.5 60.5) (xy 122.15 57.8) (xy 122.6 49.9) (xy 134 49.8)
+>>>>>>> Stashed changes
+=======
+        (xy 136.9 60.5) (xy 123.5 60.5) (xy 122.15 57.8) (xy 122.6 49.9) (xy 134 49.8)
+>>>>>>> Stashed changes
 =======
         (xy 136.9 60.5) (xy 123.5 60.5) (xy 122.15 57.8) (xy 122.6 49.9) (xy 134 49.8)
 >>>>>>> Stashed changes
@@ -2056,6 +2273,8 @@
     )
     (filled_polygon
       (pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         (xy 132.873 53.813903) (xy 132.854671 54) (xy 132.873 54.186097) (xy 132.873 60.373) (xy 123.854346 60.373)
         (xy 123.071613 59.590267) (xy 122.032489 57.957358) (xy 122.032489 57.525521) (xy 122.259345 57.339345) (xy 122.494903 57.052317)
@@ -2074,6 +2293,10 @@
   )
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 604404E0) (hatch edge 0.508)
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         (xy 132.810897 60.219754) (xy 124.412133 60.094221) (xy 122.999118 58.519718) (xy 122.840163 55) (xy 124.409428 55)
         (xy 124.409428 57) (xy 124.421688 57.124482) (xy 124.457998 57.24418) (xy 124.516963 57.354494) (xy 124.596315 57.451185)
         (xy 124.693006 57.530537) (xy 124.80332 57.589502) (xy 124.923018 57.625812) (xy 125.0475 57.638072) (xy 126.9525 57.638072)
@@ -2090,6 +2313,12 @@
   )
   (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 605146EC) (hatch edge 0.508)
     (priority 2)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
@@ -2097,8 +2326,18 @@
     (polygon
       (pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         (xy 121.5 60.5) (xy 123.75 61.5) (xy 159 61.5) (xy 159 72) (xy 125.75 71.25)
         (xy 118 63.5) (xy 118 54.75) (xy 121 54.75)
+=======
+        (xy 122.375 58.775) (xy 124.125 60.725) (xy 159.25 61.25) (xy 159.5 77.25) (xy 127 77.25)
+        (xy 118.25 64.25) (xy 118 54.7) (xy 122.2 54.9)
+>>>>>>> Stashed changes
+=======
+        (xy 122.375 58.775) (xy 124.125 60.725) (xy 159.25 61.25) (xy 159.5 77.25) (xy 127 77.25)
+        (xy 118.25 64.25) (xy 118 54.7) (xy 122.2 54.9)
+>>>>>>> Stashed changes
 =======
         (xy 122.375 58.775) (xy 124.125 60.725) (xy 159.25 61.25) (xy 159.5 77.25) (xy 127 77.25)
         (xy 118.25 64.25) (xy 118 54.7) (xy 122.2 54.9)
@@ -2107,6 +2346,8 @@
     )
     (filled_polygon
       (pts
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         (xy 121.373477 60.511002) (xy 121.378055 60.535474) (xy 121.387319 60.558583) (xy 121.400913 60.57944) (xy 121.418315 60.597245)
         (xy 121.44842 60.616054) (xy 123.69842 61.616054) (xy 123.722053 61.623887) (xy 123.75 61.627) (xy 126.609289 61.627)
@@ -2134,6 +2375,10 @@
         (xy 147.304552 65.422397) (xy 147.191284 65.252879) (xy 147.047121 65.108716) (xy 146.877603 64.995448) (xy 146.865051 64.990249)
         (xy 143.501801 61.627) (xy 149.79 61.627) (xy 149.79 61.700229) (xy 149.672038 61.797038) (xy 149.561595 61.931614)
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         (xy 122.078351 55.021351) (xy 122.08453 55.158172) (xy 121.986245 55.342051) (xy 121.89547 55.641296) (xy 121.8725 55.874514)
         (xy 121.8725 56.125485) (xy 121.89547 56.358703) (xy 121.959564 56.569993) (xy 121.932148 56.621285) (xy 121.838657 56.929484)
         (xy 121.815 57.169678) (xy 121.815 57.779572) (xy 121.736157 58.039485) (xy 121.704588 58.360001) (xy 121.736157 58.680517)
@@ -2160,12 +2405,20 @@
         (xy 147.422347 66.014592) (xy 147.422347 65.810714) (xy 147.382573 65.610755) (xy 147.304552 65.422397) (xy 147.191284 65.252879)
         (xy 147.047121 65.108716) (xy 146.877603 64.995448) (xy 146.865051 64.990249) (xy 143.135 61.260199) (xy 143.135 61.198061)
         (xy 143.122648 61.135965) (xy 149.79 61.235619) (xy 149.79 61.700229) (xy 149.672038 61.797038) (xy 149.561595 61.931614)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         (xy 149.479528 62.08515) (xy 149.428992 62.251746) (xy 149.411928 62.425) (xy 149.411928 63.375) (xy 149.428992 63.548254)
         (xy 149.479528 63.71485) (xy 149.561595 63.868386) (xy 149.672038 64.002962) (xy 149.806614 64.113405) (xy 149.96015 64.195472)
         (xy 150.126746 64.246008) (xy 150.3 64.263072) (xy 150.8 64.263072) (xy 150.973254 64.246008) (xy 151.13985 64.195472)
         (xy 151.293386 64.113405) (xy 151.427962 64.002962) (xy 151.538405 63.868386) (xy 151.620472 63.71485) (xy 151.671008 63.548254)
         (xy 151.688072 63.375) (xy 151.688072 62.425) (xy 151.671008 62.251746) (xy 151.620472 62.08515) (xy 151.538405 61.931614)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         (xy 151.427962 61.797038) (xy 151.31 61.70023) (xy 151.31 61.627) (xy 158.188798 61.627) (xy 158.594918 61.631021)
         (xy 158.600922 71.863966) (xy 133.463174 71.296949) (xy 133.424276 71.265026) (xy 133.292247 71.194454) (xy 133.148986 71.150997)
@@ -2178,6 +2431,10 @@
   )
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 604404DD) (hatch edge 0.508)
 =======
+=======
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
         (xy 151.427962 61.797038) (xy 151.31 61.70023) (xy 151.31 61.258338) (xy 158.594764 61.367221) (xy 158.601576 72.978677)
         (xy 158.270349 72.64745) (xy 157.879721 72.38644) (xy 157.445679 72.206654) (xy 156.984902 72.115) (xy 156.515098 72.115)
         (xy 156.054321 72.206654) (xy 155.620279 72.38644) (xy 155.229651 72.64745) (xy 154.89745 72.979651) (xy 154.63644 73.370279)
@@ -2249,6 +2506,12 @@
   )
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146E9) (hatch edge 0.508)
     (priority 6)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     (connect_pads yes (clearance 0.508))
     (min_thickness 0.254)
@@ -2271,7 +2534,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 604404DA) (hatch edge 0.508)
+=======
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146E6) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146E6) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 2) (net_name "Net-(C3-Pad2)") (layer B.Cu) (tstamp 605146E6) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2285,8 +2556,18 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 8) (net_name Batt+) (layer F.Cu) (tstamp 604404D7) (hatch edge 0.508)
     (priority 1)
+=======
+  (zone (net 8) (net_name Batt+) (layer F.Cu) (tstamp 605146E3) (hatch edge 0.508)
+    (priority 2)
+>>>>>>> Stashed changes
+=======
+  (zone (net 8) (net_name Batt+) (layer F.Cu) (tstamp 605146E3) (hatch edge 0.508)
+    (priority 2)
+>>>>>>> Stashed changes
 =======
   (zone (net 8) (net_name Batt+) (layer F.Cu) (tstamp 605146E3) (hatch edge 0.508)
     (priority 2)
@@ -2320,7 +2601,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 15) (net_name "Net-(C3-Pad1)") (layer F.Cu) (tstamp 604404D4) (hatch edge 0.508)
+=======
+  (zone (net 11) (net_name "Net-(C3-Pad1)") (layer F.Cu) (tstamp 605146E0) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 11) (net_name "Net-(C3-Pad1)") (layer F.Cu) (tstamp 605146E0) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 11) (net_name "Net-(C3-Pad1)") (layer F.Cu) (tstamp 605146E0) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2343,7 +2632,15 @@
     )
   )
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 604404D1) (hatch edge 0.508)
+=======
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146DD) (hatch edge 0.508)
+>>>>>>> Stashed changes
+=======
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146DD) (hatch edge 0.508)
+>>>>>>> Stashed changes
 =======
   (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146DD) (hatch edge 0.508)
 >>>>>>> Stashed changes
@@ -2354,7 +2651,15 @@
     (polygon
       (pts
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
         (xy 159 56.25) (xy 159 61) (xy 133.75 60.75) (xy 133.75 51.25) (xy 154 51.25)
+=======
+        (xy 158.702489 56.332697) (xy 159 61.082697) (xy 133.452489 60.832697) (xy 133.35 51.25) (xy 153.702489 51.332697)
+>>>>>>> Stashed changes
+=======
+        (xy 158.702489 56.332697) (xy 159 61.082697) (xy 133.452489 60.832697) (xy 133.35 51.25) (xy 153.702489 51.332697)
+>>>>>>> Stashed changes
 =======
         (xy 158.702489 56.332697) (xy 159 61.082697) (xy 133.452489 60.832697) (xy 133.35 51.25) (xy 153.702489 51.332697)
 >>>>>>> Stashed changes
@@ -2395,6 +2700,12 @@
         (xy 140.666898 59.104774) (xy 140.466939 59.065) (xy 140.263061 59.065) (xy 140.063102 59.104774) (xy 139.874744 59.182795)
         (xy 139.705226 59.296063) (xy 139.561063 59.440226) (xy 139.447795 59.609744) (xy 139.369774 59.798102) (xy 139.33 59.998061)
         (xy 139.33 60.060198) (xy 139.07679 60.313408) (xy 136.777896 60.279047) (xy 136.783777 60.271881) (xy 136.982026 59.900982)
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         (xy 137.104108 59.498533) (xy 137.14533 59.08) (xy 137.104108 58.661467) (xy 136.982026 58.259018) (xy 136.783777 57.888119)
         (xy 136.516977 57.563023) (xy 136.191881 57.296223) (xy 135.820982 57.097974) (xy 135.418533 56.975892) (xy 135.104882 56.945)
@@ -2417,6 +2728,438 @@
         (xy 140.522981 53.941521) (xy 140.44496 54.129879) (xy 140.423953 54.235488) (xy 140.309744 54.282795) (xy 140.140226 54.396063)
         (xy 139.996063 54.540226) (xy 139.882795 54.709744) (xy 139.804774 54.898102) (xy 139.765 55.098061) (xy 133.877 55.098061)
         (xy 133.877 51.41) (xy 153.980394 51.41)
+      )
+    )
+  )
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 605146DA) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 159.25 78.25) (xy 131.5 78.25) (xy 137.75 50.75) (xy 159.25 50.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 144.076208 74.036012) (xy 144.100007 74.065011) (xy 144.129005 74.088809) (xy 144.215731 74.159984) (xy 144.28323 74.196063)
+        (xy 144.347761 74.230556) (xy 144.491022 74.274013) (xy 144.602675 74.28501) (xy 144.602684 74.28501) (xy 144.640007 74.288686)
+        (xy 144.67733 74.28501) (xy 145.213404 74.28501) (xy 145.211928 74.299999) (xy 145.211928 75.600001) (xy 145.228992 75.773255)
+        (xy 145.279528 75.939851) (xy 145.361595 76.093387) (xy 145.472038 76.227962) (xy 145.606613 76.338405) (xy 145.609596 76.34)
+        (xy 141.15237 76.34) (xy 141.227963 76.277963) (xy 141.338405 76.143388) (xy 141.420472 75.989852) (xy 141.471008 75.823257)
+        (xy 141.488072 75.650003) (xy 141.488072 74.77423) (xy 142.005453 74.256849) (xy 142.098102 74.295226) (xy 142.298061 74.335)
+        (xy 142.501939 74.335) (xy 142.701898 74.295226) (xy 142.890256 74.217205) (xy 143.059774 74.103937) (xy 143.203937 73.959774)
+        (xy 143.317205 73.790256) (xy 143.395226 73.601898) (xy 143.435 73.401939) (xy 143.435 73.394803)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 154.89745 51.729651) (xy 154.63644 52.120279) (xy 154.456654 52.554321) (xy 154.365 53.015098) (xy 154.365 53.484902)
+        (xy 154.456654 53.945679) (xy 154.63644 54.379721) (xy 154.89745 54.770349) (xy 155.229651 55.10255) (xy 155.620279 55.36356)
+        (xy 156.054321 55.543346) (xy 156.515098 55.635) (xy 156.984902 55.635) (xy 157.445679 55.543346) (xy 157.879721 55.36356)
+        (xy 158.270349 55.10255) (xy 158.5909 54.781999) (xy 158.591539 55.870943) (xy 158.5 55.861928) (xy 154.5 55.861928)
+        (xy 154.375518 55.874188) (xy 154.25582 55.910498) (xy 154.145506 55.969463) (xy 154.048815 56.048815) (xy 153.969463 56.145506)
+        (xy 153.910498 56.25582) (xy 153.874188 56.375518) (xy 153.861928 56.5) (xy 153.861928 60.5) (xy 153.874188 60.624482)
+        (xy 153.910498 60.74418) (xy 153.969463 60.854494) (xy 154.048815 60.951185) (xy 154.145506 61.030537) (xy 154.25582 61.089502)
+        (xy 154.375518 61.125812) (xy 154.5 61.138072) (xy 158.5 61.138072) (xy 158.594623 61.128753) (xy 158.601576 72.978677)
+        (xy 158.270349 72.64745) (xy 157.879721 72.38644) (xy 157.445679 72.206654) (xy 156.984902 72.115) (xy 156.515098 72.115)
+        (xy 156.054321 72.206654) (xy 155.620279 72.38644) (xy 155.229651 72.64745) (xy 154.89745 72.979651) (xy 154.63644 73.370279)
+        (xy 154.456654 73.804321) (xy 154.365 74.265098) (xy 154.365 74.734902) (xy 154.456654 75.195679) (xy 154.63644 75.629721)
+        (xy 154.89745 76.020349) (xy 155.2171 76.339999) (xy 150.890404 76.339999) (xy 150.893387 76.338405) (xy 151.027962 76.227962)
+        (xy 151.138405 76.093387) (xy 151.220472 75.939851) (xy 151.271008 75.773255) (xy 151.288072 75.600001) (xy 151.288072 74.299999)
+        (xy 151.271008 74.126745) (xy 151.220472 73.960149) (xy 151.138405 73.806613) (xy 151.027962 73.672038) (xy 150.893387 73.561595)
+        (xy 150.739851 73.479528) (xy 150.573255 73.428992) (xy 150.400001 73.411928) (xy 150.284642 73.411928) (xy 150.511003 73.185567)
+        (xy 150.540001 73.161769) (xy 150.600358 73.088224) (xy 150.634974 73.046045) (xy 150.705546 72.914015) (xy 150.715026 72.882763)
+        (xy 150.749003 72.770754) (xy 150.76 72.659101) (xy 150.76 72.659092) (xy 150.763676 72.621769) (xy 150.76 72.584446)
+        (xy 150.76 70.449999) (xy 151.411928 70.449999) (xy 151.411928 71.150001) (xy 151.428992 71.323255) (xy 151.479528 71.489851)
+        (xy 151.561595 71.643387) (xy 151.672038 71.777962) (xy 151.806613 71.888405) (xy 151.960149 71.970472) (xy 152.126745 72.021008)
+        (xy 152.299999 72.038072) (xy 153.600001 72.038072) (xy 153.773255 72.021008) (xy 153.939851 71.970472) (xy 154.093387 71.888405)
+        (xy 154.227962 71.777962) (xy 154.338405 71.643387) (xy 154.420472 71.489851) (xy 154.471008 71.323255) (xy 154.488072 71.150001)
+        (xy 154.488072 70.449999) (xy 154.471008 70.276745) (xy 154.420472 70.110149) (xy 154.338405 69.956613) (xy 154.227962 69.822038)
+        (xy 154.093387 69.711595) (xy 153.939851 69.629528) (xy 153.773255 69.578992) (xy 153.600001 69.561928) (xy 152.299999 69.561928)
+        (xy 152.126745 69.578992) (xy 151.960149 69.629528) (xy 151.806613 69.711595) (xy 151.672038 69.822038) (xy 151.561595 69.956613)
+        (xy 151.479528 70.110149) (xy 151.428992 70.276745) (xy 151.411928 70.449999) (xy 150.76 70.449999) (xy 150.76 70.337333)
+        (xy 150.763677 70.3) (xy 150.749003 70.151014) (xy 150.705546 70.007753) (xy 150.634974 69.875724) (xy 150.540001 69.759999)
+        (xy 150.424276 69.665026) (xy 150.292247 69.594454) (xy 150.148986 69.550997) (xy 150.037333 69.54) (xy 150 69.536323)
+        (xy 149.962667 69.54) (xy 149.820782 69.54) (xy 149.709988 69.429206) (xy 149.8 69.438072) (xy 151.05 69.438072)
+        (xy 151.203745 69.422929) (xy 151.351582 69.378084) (xy 151.487829 69.305258) (xy 151.607251 69.207251) (xy 151.705258 69.087829)
+        (xy 151.778084 68.951582) (xy 151.822929 68.803745) (xy 151.838072 68.65) (xy 151.838072 68.35) (xy 151.822929 68.196255)
+        (xy 151.778084 68.048418) (xy 151.752204 68) (xy 151.778084 67.951582) (xy 151.822929 67.803745) (xy 151.838072 67.65)
+        (xy 151.838072 67.35) (xy 151.822929 67.196255) (xy 151.821073 67.190138) (xy 151.924276 67.134974) (xy 152.040001 67.040001)
+        (xy 152.051274 67.026264) (xy 152.065011 67.014991) (xy 152.159984 66.899266) (xy 152.230556 66.767237) (xy 152.274013 66.623976)
+        (xy 152.28501 66.512323) (xy 152.28501 66.512313) (xy 152.288686 66.474991) (xy 152.28501 66.437668) (xy 152.28501 64.436596)
+        (xy 152.299999 64.438072) (xy 153.600001 64.438072) (xy 153.773255 64.421008) (xy 153.939851 64.370472) (xy 154.093387 64.288405)
+        (xy 154.227962 64.177962) (xy 154.338405 64.043387) (xy 154.420472 63.889851) (xy 154.471008 63.723255) (xy 154.488072 63.550001)
+        (xy 154.488072 62.849999) (xy 154.471008 62.676745) (xy 154.420472 62.510149) (xy 154.338405 62.356613) (xy 154.227962 62.222038)
+        (xy 154.093387 62.111595) (xy 153.939851 62.029528) (xy 153.773255 61.978992) (xy 153.600001 61.961928) (xy 152.299999 61.961928)
+        (xy 152.16 61.975717) (xy 152.16 56.203711) (xy 152.203937 56.159774) (xy 152.317205 55.990256) (xy 152.395226 55.801898)
+        (xy 152.435 55.601939) (xy 152.435 55.398061) (xy 152.395226 55.198102) (xy 152.317205 55.009744) (xy 152.203937 54.840226)
+        (xy 152.059774 54.696063) (xy 151.890256 54.582795) (xy 151.701898 54.504774) (xy 151.501939 54.465) (xy 151.298061 54.465)
+        (xy 151.098102 54.504774) (xy 150.909744 54.582795) (xy 150.740226 54.696063) (xy 150.62464 54.811649) (xy 147.222991 51.41)
+        (xy 155.217101 51.41)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 135.897038 71.677962) (xy 136.031614 71.788405) (xy 136.18515 71.870472) (xy 136.351746 71.921008) (xy 136.525 71.938072)
+        (xy 136.791859 71.938072) (xy 137.618796 72.76501) (xy 136.012814 72.76501) (xy 134.807803 71.56) (xy 135.80023 71.56)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 145.661997 69.561799) (xy 145.661928 69.562498) (xy 145.661928 70.087502) (xy 145.678992 70.260756) (xy 145.729528 70.427352)
+        (xy 145.811595 70.580887) (xy 145.922038 70.715462) (xy 146.056613 70.825905) (xy 146.210148 70.907972) (xy 146.376744 70.958508)
+        (xy 146.549998 70.975572) (xy 147.266314 70.975572) (xy 147.275754 71.071412) (xy 147.276008 71.073995) (xy 147.319464 71.217256)
+        (xy 147.390036 71.349286) (xy 147.43802 71.407754) (xy 147.48501 71.465011) (xy 147.514008 71.488809) (xy 147.813118 71.787919)
+        (xy 147.811928 71.8) (xy 147.811928 72.76501) (xy 144.971907 72.76501) (xy 144.980537 72.754494) (xy 145.039502 72.64418)
+        (xy 145.075812 72.524482) (xy 145.088072 72.4) (xy 145.088072 71) (xy 145.075812 70.875518) (xy 145.039502 70.75582)
+        (xy 145.035 70.747397) (xy 145.035 68.934802)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 138.131928 51.5) (xy 138.131928 53.2) (xy 138.144188 53.324482) (xy 138.180498 53.44418) (xy 138.239463 53.554494)
+        (xy 138.318815 53.651185) (xy 138.357915 53.683273) (xy 138.376339 53.74401) (xy 138.389454 53.787246) (xy 138.460026 53.919276)
+        (xy 138.481695 53.945679) (xy 138.554999 54.035001) (xy 138.584003 54.058804) (xy 139.765 55.239802) (xy 139.765 55.301939)
+        (xy 139.804774 55.501898) (xy 139.882795 55.690256) (xy 139.996063 55.859774) (xy 140.140226 56.003937) (xy 140.309744 56.117205)
+        (xy 140.498102 56.195226) (xy 140.698061 56.235) (xy 140.901939 56.235) (xy 141.101898 56.195226) (xy 141.290256 56.117205)
+        (xy 141.459774 56.003937) (xy 141.603937 55.859774) (xy 141.717205 55.690256) (xy 141.795226 55.501898) (xy 141.816233 55.396289)
+        (xy 141.930442 55.348982) (xy 142.09996 55.235714) (xy 142.244123 55.091551) (xy 142.357391 54.922033) (xy 142.435412 54.733675)
+        (xy 142.475186 54.533716) (xy 142.475186 54.329838) (xy 142.435412 54.129879) (xy 142.357391 53.941521) (xy 142.244123 53.772003)
+        (xy 142.241613 53.769493) (xy 142.27 53.75432) (xy 142.33582 53.789502) (xy 142.455518 53.825812) (xy 142.58 53.838072)
+        (xy 143.23 53.838072) (xy 143.310356 53.830158) (xy 144.040001 54.559803) (xy 144.04 56.965) (xy 143.898061 56.965)
+        (xy 143.698102 57.004774) (xy 143.509744 57.082795) (xy 143.340226 57.196063) (xy 143.196063 57.340226) (xy 143.082795 57.509744)
+        (xy 143.004774 57.698102) (xy 142.965 57.898061) (xy 142.965 58.101939) (xy 143.004774 58.301898) (xy 143.082795 58.490256)
+        (xy 143.196063 58.659774) (xy 143.240001 58.703712) (xy 143.24 60.735198) (xy 143.060627 60.914572) (xy 143.017205 60.809744)
+        (xy 142.903937 60.640226) (xy 142.759774 60.496063) (xy 142.598072 60.388017) (xy 142.598072 58.8) (xy 142.585812 58.675518)
+        (xy 142.549502 58.55582) (xy 142.490537 58.445506) (xy 142.411185 58.348815) (xy 142.314494 58.269463) (xy 142.20418 58.210498)
+        (xy 142.084482 58.174188) (xy 141.96 58.161928) (xy 141.31 58.161928) (xy 141.185518 58.174188) (xy 141.06582 58.210498)
+        (xy 141 58.24568) (xy 140.93418 58.210498) (xy 140.814482 58.174188) (xy 140.69 58.161928) (xy 140.04 58.161928)
+        (xy 139.915518 58.174188) (xy 139.79582 58.210498) (xy 139.73 58.24568) (xy 139.66418 58.210498) (xy 139.544482 58.174188)
+        (xy 139.42 58.161928) (xy 138.77 58.161928) (xy 138.645518 58.174188) (xy 138.52582 58.210498) (xy 138.415506 58.269463)
+        (xy 138.318815 58.348815) (xy 138.239463 58.445506) (xy 138.180498 58.55582) (xy 138.144188 58.675518) (xy 138.131928 58.8)
+        (xy 138.131928 60.5) (xy 138.144188 60.624482) (xy 138.180498 60.74418) (xy 138.239463 60.854494) (xy 138.318815 60.951185)
+        (xy 138.37609 60.998189) (xy 138.389454 61.042246) (xy 138.460026 61.174276) (xy 138.530378 61.259999) (xy 138.555 61.290001)
+        (xy 138.583998 61.313799) (xy 138.976196 61.705997) (xy 138.999999 61.735001) (xy 139.073146 61.795031) (xy 139.115723 61.829974)
+        (xy 139.179005 61.863799) (xy 139.247753 61.900546) (xy 139.391014 61.944003) (xy 139.502667 61.955) (xy 139.502676 61.955)
+        (xy 139.539999 61.958676) (xy 139.577322 61.955) (xy 140.168389 61.955) (xy 140.502972 62.289584) (xy 140.372038 62.397038)
+        (xy 140.261595 62.531614) (xy 140.179528 62.68515) (xy 140.128992 62.851746) (xy 140.111928 63.025) (xy 140.111928 63.975)
+        (xy 140.128992 64.148254) (xy 140.179528 64.31485) (xy 140.261595 64.468386) (xy 140.372038 64.602962) (xy 140.506614 64.713405)
+        (xy 140.5642 64.744185) (xy 140.615026 64.839274) (xy 140.661092 64.895405) (xy 140.71 64.954999) (xy 140.738998 64.978797)
+        (xy 140.9858 65.225599) (xy 140.969463 65.245506) (xy 140.910498 65.35582) (xy 140.874188 65.475518) (xy 140.861928 65.6)
+        (xy 140.861928 67) (xy 140.874188 67.124482) (xy 140.910498 67.24418) (xy 140.969463 67.354494) (xy 141.048815 67.451185)
+        (xy 141.145506 67.530537) (xy 141.25582 67.589502) (xy 141.375518 67.625812) (xy 141.5 67.638072) (xy 141.85 67.638072)
+        (xy 141.974482 67.625812) (xy 142 67.618071) (xy 142.025518 67.625812) (xy 142.15 67.638072) (xy 142.5 67.638072)
+        (xy 142.624482 67.625812) (xy 142.65 67.618071) (xy 142.675518 67.625812) (xy 142.8 67.638072) (xy 143.15 67.638072)
+        (xy 143.274482 67.625812) (xy 143.3 67.618071) (xy 143.325518 67.625812) (xy 143.45 67.638072) (xy 143.515 67.638072)
+        (xy 143.515001 70.361928) (xy 143.45 70.361928) (xy 143.325518 70.374188) (xy 143.3 70.381929) (xy 143.274482 70.374188)
+        (xy 143.15 70.361928) (xy 142.8 70.361928) (xy 142.675518 70.374188) (xy 142.65 70.381929) (xy 142.624482 70.374188)
+        (xy 142.5 70.361928) (xy 142.15 70.361928) (xy 142.025518 70.374188) (xy 142 70.381929) (xy 141.974482 70.374188)
+        (xy 141.85 70.361928) (xy 141.5 70.361928) (xy 141.375518 70.374188) (xy 141.35 70.381929) (xy 141.324482 70.374188)
+        (xy 141.2 70.361928) (xy 140.85 70.361928) (xy 140.725518 70.374188) (xy 140.7 70.381929) (xy 140.674482 70.374188)
+        (xy 140.55 70.361928) (xy 140.2 70.361928) (xy 140.075518 70.374188) (xy 140.05 70.381929) (xy 140.024482 70.374188)
+        (xy 139.9 70.361928) (xy 139.55 70.361928) (xy 139.46 70.370792) (xy 139.46 70.324822) (xy 139.463676 70.287499)
+        (xy 139.46 70.250176) (xy 139.46 70.250167) (xy 139.449003 70.138514) (xy 139.405546 69.995253) (xy 139.334974 69.863224)
+        (xy 139.240001 69.747499) (xy 139.211004 69.723702) (xy 138.313072 68.825771) (xy 138.313072 68.299998) (xy 138.296008 68.126744)
+        (xy 138.245472 67.960148) (xy 138.163405 67.806613) (xy 138.052962 67.672038) (xy 137.918387 67.561595) (xy 137.764852 67.479528)
+        (xy 137.598256 67.428992) (xy 137.425002 67.411928) (xy 136.899998 67.411928) (xy 136.835001 67.41833) (xy 136.835001 65.6)
+        (xy 138.911928 65.6) (xy 138.911928 67) (xy 138.924188 67.124482) (xy 138.960498 67.24418) (xy 139.019463 67.354494)
+        (xy 139.098815 67.451185) (xy 139.195506 67.530537) (xy 139.30582 67.589502) (xy 139.425518 67.625812) (xy 139.55 67.638072)
+        (xy 139.9 67.638072) (xy 140.024482 67.625812) (xy 140.14418 67.589502) (xy 140.254494 67.530537) (xy 140.351185 67.451185)
+        (xy 140.430537 67.354494) (xy 140.489502 67.24418) (xy 140.525812 67.124482) (xy 140.538072 67) (xy 140.538072 65.6)
+        (xy 140.525812 65.475518) (xy 140.489502 65.35582) (xy 140.430537 65.245506) (xy 140.351185 65.148815) (xy 140.254494 65.069463)
+        (xy 140.14418 65.010498) (xy 140.024482 64.974188) (xy 139.9 64.961928) (xy 139.55 64.961928) (xy 139.425518 64.974188)
+        (xy 139.30582 65.010498) (xy 139.195506 65.069463) (xy 139.098815 65.148815) (xy 139.019463 65.245506) (xy 138.960498 65.35582)
+        (xy 138.924188 65.475518) (xy 138.911928 65.6) (xy 136.835001 65.6) (xy 136.835001 63.412324) (xy 136.838677 63.375001)
+        (xy 136.835001 63.337678) (xy 136.835001 63.337668) (xy 136.824004 63.226015) (xy 136.780547 63.082754) (xy 136.757114 63.038914)
+        (xy 136.709975 62.950724) (xy 136.6388 62.863998) (xy 136.615002 62.835) (xy 136.586005 62.811203) (xy 136.335 62.560198)
+        (xy 136.335 62.498061) (xy 136.295226 62.298102) (xy 136.217205 62.109744) (xy 136.103937 61.940226) (xy 135.959774 61.796063)
+        (xy 135.790256 61.682795) (xy 135.601898 61.604774) (xy 135.421404 61.568872) (xy 135.645629 60.582283) (xy 135.774463 60.528918)
+        (xy 136.042252 60.349987) (xy 136.269987 60.122252) (xy 136.448918 59.854463) (xy 136.572168 59.556912) (xy 136.635 59.241033)
+        (xy 136.635 58.918967) (xy 136.572168 58.603088) (xy 136.448918 58.305537) (xy 136.269987 58.037748) (xy 136.232461 58.000222)
+        (xy 136.935035 54.908896) (xy 136.982026 54.820982) (xy 137.104108 54.418534) (xy 137.145329 54) (xy 137.144202 53.98856)
+        (xy 137.730239 51.41) (xy 138.140792 51.41)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 145.015002 59.453393) (xy 145.015001 60.22268) (xy 145.011325 60.260003) (xy 145.015001 60.297325) (xy 145.015001 60.297335)
+        (xy 145.025998 60.408988) (xy 145.053606 60.5) (xy 145.069455 60.552249) (xy 145.140027 60.684279) (xy 145.179872 60.732829)
+        (xy 145.235 60.800004) (xy 145.264004 60.823807) (xy 146.602511 62.162315) (xy 146.60251 64.114976) (xy 146.473975 64.075986)
+        (xy 146.362322 64.064989) (xy 146.324989 64.061312) (xy 146.287656 64.064989) (xy 144.550572 64.064989) (xy 144.550572 62.849997)
+        (xy 144.533508 62.676743) (xy 144.482972 62.510148) (xy 144.400905 62.356612) (xy 144.290463 62.222037) (xy 144.155888 62.111595)
+        (xy 144.062906 62.061895) (xy 144.511004 61.613798) (xy 144.540001 61.590001) (xy 144.634974 61.474276) (xy 144.705546 61.342247)
+        (xy 144.749003 61.198986) (xy 144.76 61.087333) (xy 144.76 61.087324) (xy 144.763676 61.050001) (xy 144.76 61.012678)
+        (xy 144.76 59.198392)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.665 56.001612) (xy 149.665001 63.575225) (xy 149.646255 63.577071) (xy 149.498418 63.621916) (xy 149.362171 63.694742)
+        (xy 149.256371 63.78157) (xy 148.57252 63.097719) (xy 148.57252 59.224803) (xy 148.576196 59.18748) (xy 148.57252 59.150157)
+        (xy 148.57252 57.599845) (xy 148.576196 57.56252) (xy 148.57252 57.525195) (xy 148.57252 57.525187) (xy 148.561523 57.413534)
+        (xy 148.518066 57.270273) (xy 148.447494 57.138244) (xy 148.352521 57.022519) (xy 148.323523 56.998722) (xy 148.290071 56.965269)
+        (xy 148.370472 56.81485) (xy 148.421008 56.648254) (xy 148.438072 56.475) (xy 148.438072 55.525) (xy 148.421008 55.351746)
+        (xy 148.370472 55.18515) (xy 148.288405 55.031614) (xy 148.177962 54.897038) (xy 148.043386 54.786595) (xy 147.88985 54.704528)
+        (xy 147.723254 54.653992) (xy 147.55 54.636928) (xy 147.05 54.636928) (xy 146.876746 54.653992) (xy 146.71015 54.704528)
+        (xy 146.556614 54.786595) (xy 146.553149 54.789438) (xy 146.459774 54.696063) (xy 146.290256 54.582795) (xy 146.101898 54.504774)
+        (xy 145.901939 54.465) (xy 145.698061 54.465) (xy 145.56 54.492462) (xy 145.56 54.282325) (xy 145.563676 54.245)
+        (xy 145.56 54.207675) (xy 145.56 54.207667) (xy 145.549003 54.096014) (xy 145.505546 53.952753) (xy 145.434974 53.820724)
+        (xy 145.340001 53.704999) (xy 145.311003 53.681201) (xy 143.868072 52.238271) (xy 143.868072 51.934999) (xy 145.598388 51.934999)
+      )
+    )
+  )
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer F.Cu) (tstamp 605146D7) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 126.25 77.25) (xy 110.25 77.25) (xy 110.25 71.5) (xy 126.25 71.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 126.123 76.340001) (xy 116.032898 76.340001) (xy 116.35255 76.020349) (xy 116.61356 75.629721) (xy 116.793346 75.195679)
+        (xy 116.885 74.734902) (xy 116.885 74.265098) (xy 116.793346 73.804321) (xy 116.61356 73.370279) (xy 116.35255 72.979651)
+        (xy 116.020349 72.64745) (xy 115.629721 72.38644) (xy 115.195679 72.206654) (xy 114.734902 72.115) (xy 114.265098 72.115)
+        (xy 113.804321 72.206654) (xy 113.370279 72.38644) (xy 112.979651 72.64745) (xy 112.66 72.967101) (xy 112.66 71.627)
+        (xy 126.123 71.627)
+      )
+    )
+  )
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146D4) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 132.1 77.3) (xy 128.2 78) (xy 128.1 72.4) (xy 132 72.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 131.953381 76.34) (xy 128.297378 76.34) (xy 128.233949 72.78801) (xy 128.359774 72.703937) (xy 128.403711 72.66)
+        (xy 131.878279 72.66)
+      )
+    )
+  )
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 605146DA) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 159.25 78.25) (xy 131.5 78.25) (xy 137.75 50.75) (xy 159.25 50.75)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 144.076208 74.036012) (xy 144.100007 74.065011) (xy 144.129005 74.088809) (xy 144.215731 74.159984) (xy 144.28323 74.196063)
+        (xy 144.347761 74.230556) (xy 144.491022 74.274013) (xy 144.602675 74.28501) (xy 144.602684 74.28501) (xy 144.640007 74.288686)
+        (xy 144.67733 74.28501) (xy 145.213404 74.28501) (xy 145.211928 74.299999) (xy 145.211928 75.600001) (xy 145.228992 75.773255)
+        (xy 145.279528 75.939851) (xy 145.361595 76.093387) (xy 145.472038 76.227962) (xy 145.606613 76.338405) (xy 145.609596 76.34)
+        (xy 141.15237 76.34) (xy 141.227963 76.277963) (xy 141.338405 76.143388) (xy 141.420472 75.989852) (xy 141.471008 75.823257)
+        (xy 141.488072 75.650003) (xy 141.488072 74.77423) (xy 142.005453 74.256849) (xy 142.098102 74.295226) (xy 142.298061 74.335)
+        (xy 142.501939 74.335) (xy 142.701898 74.295226) (xy 142.890256 74.217205) (xy 143.059774 74.103937) (xy 143.203937 73.959774)
+        (xy 143.317205 73.790256) (xy 143.395226 73.601898) (xy 143.435 73.401939) (xy 143.435 73.394803)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 154.89745 51.729651) (xy 154.63644 52.120279) (xy 154.456654 52.554321) (xy 154.365 53.015098) (xy 154.365 53.484902)
+        (xy 154.456654 53.945679) (xy 154.63644 54.379721) (xy 154.89745 54.770349) (xy 155.229651 55.10255) (xy 155.620279 55.36356)
+        (xy 156.054321 55.543346) (xy 156.515098 55.635) (xy 156.984902 55.635) (xy 157.445679 55.543346) (xy 157.879721 55.36356)
+        (xy 158.270349 55.10255) (xy 158.5909 54.781999) (xy 158.591539 55.870943) (xy 158.5 55.861928) (xy 154.5 55.861928)
+        (xy 154.375518 55.874188) (xy 154.25582 55.910498) (xy 154.145506 55.969463) (xy 154.048815 56.048815) (xy 153.969463 56.145506)
+        (xy 153.910498 56.25582) (xy 153.874188 56.375518) (xy 153.861928 56.5) (xy 153.861928 60.5) (xy 153.874188 60.624482)
+        (xy 153.910498 60.74418) (xy 153.969463 60.854494) (xy 154.048815 60.951185) (xy 154.145506 61.030537) (xy 154.25582 61.089502)
+        (xy 154.375518 61.125812) (xy 154.5 61.138072) (xy 158.5 61.138072) (xy 158.594623 61.128753) (xy 158.601576 72.978677)
+        (xy 158.270349 72.64745) (xy 157.879721 72.38644) (xy 157.445679 72.206654) (xy 156.984902 72.115) (xy 156.515098 72.115)
+        (xy 156.054321 72.206654) (xy 155.620279 72.38644) (xy 155.229651 72.64745) (xy 154.89745 72.979651) (xy 154.63644 73.370279)
+        (xy 154.456654 73.804321) (xy 154.365 74.265098) (xy 154.365 74.734902) (xy 154.456654 75.195679) (xy 154.63644 75.629721)
+        (xy 154.89745 76.020349) (xy 155.2171 76.339999) (xy 150.890404 76.339999) (xy 150.893387 76.338405) (xy 151.027962 76.227962)
+        (xy 151.138405 76.093387) (xy 151.220472 75.939851) (xy 151.271008 75.773255) (xy 151.288072 75.600001) (xy 151.288072 74.299999)
+        (xy 151.271008 74.126745) (xy 151.220472 73.960149) (xy 151.138405 73.806613) (xy 151.027962 73.672038) (xy 150.893387 73.561595)
+        (xy 150.739851 73.479528) (xy 150.573255 73.428992) (xy 150.400001 73.411928) (xy 150.284642 73.411928) (xy 150.511003 73.185567)
+        (xy 150.540001 73.161769) (xy 150.600358 73.088224) (xy 150.634974 73.046045) (xy 150.705546 72.914015) (xy 150.715026 72.882763)
+        (xy 150.749003 72.770754) (xy 150.76 72.659101) (xy 150.76 72.659092) (xy 150.763676 72.621769) (xy 150.76 72.584446)
+        (xy 150.76 70.449999) (xy 151.411928 70.449999) (xy 151.411928 71.150001) (xy 151.428992 71.323255) (xy 151.479528 71.489851)
+        (xy 151.561595 71.643387) (xy 151.672038 71.777962) (xy 151.806613 71.888405) (xy 151.960149 71.970472) (xy 152.126745 72.021008)
+        (xy 152.299999 72.038072) (xy 153.600001 72.038072) (xy 153.773255 72.021008) (xy 153.939851 71.970472) (xy 154.093387 71.888405)
+        (xy 154.227962 71.777962) (xy 154.338405 71.643387) (xy 154.420472 71.489851) (xy 154.471008 71.323255) (xy 154.488072 71.150001)
+        (xy 154.488072 70.449999) (xy 154.471008 70.276745) (xy 154.420472 70.110149) (xy 154.338405 69.956613) (xy 154.227962 69.822038)
+        (xy 154.093387 69.711595) (xy 153.939851 69.629528) (xy 153.773255 69.578992) (xy 153.600001 69.561928) (xy 152.299999 69.561928)
+        (xy 152.126745 69.578992) (xy 151.960149 69.629528) (xy 151.806613 69.711595) (xy 151.672038 69.822038) (xy 151.561595 69.956613)
+        (xy 151.479528 70.110149) (xy 151.428992 70.276745) (xy 151.411928 70.449999) (xy 150.76 70.449999) (xy 150.76 70.337333)
+        (xy 150.763677 70.3) (xy 150.749003 70.151014) (xy 150.705546 70.007753) (xy 150.634974 69.875724) (xy 150.540001 69.759999)
+        (xy 150.424276 69.665026) (xy 150.292247 69.594454) (xy 150.148986 69.550997) (xy 150.037333 69.54) (xy 150 69.536323)
+        (xy 149.962667 69.54) (xy 149.820782 69.54) (xy 149.709988 69.429206) (xy 149.8 69.438072) (xy 151.05 69.438072)
+        (xy 151.203745 69.422929) (xy 151.351582 69.378084) (xy 151.487829 69.305258) (xy 151.607251 69.207251) (xy 151.705258 69.087829)
+        (xy 151.778084 68.951582) (xy 151.822929 68.803745) (xy 151.838072 68.65) (xy 151.838072 68.35) (xy 151.822929 68.196255)
+        (xy 151.778084 68.048418) (xy 151.752204 68) (xy 151.778084 67.951582) (xy 151.822929 67.803745) (xy 151.838072 67.65)
+        (xy 151.838072 67.35) (xy 151.822929 67.196255) (xy 151.821073 67.190138) (xy 151.924276 67.134974) (xy 152.040001 67.040001)
+        (xy 152.051274 67.026264) (xy 152.065011 67.014991) (xy 152.159984 66.899266) (xy 152.230556 66.767237) (xy 152.274013 66.623976)
+        (xy 152.28501 66.512323) (xy 152.28501 66.512313) (xy 152.288686 66.474991) (xy 152.28501 66.437668) (xy 152.28501 64.436596)
+        (xy 152.299999 64.438072) (xy 153.600001 64.438072) (xy 153.773255 64.421008) (xy 153.939851 64.370472) (xy 154.093387 64.288405)
+        (xy 154.227962 64.177962) (xy 154.338405 64.043387) (xy 154.420472 63.889851) (xy 154.471008 63.723255) (xy 154.488072 63.550001)
+        (xy 154.488072 62.849999) (xy 154.471008 62.676745) (xy 154.420472 62.510149) (xy 154.338405 62.356613) (xy 154.227962 62.222038)
+        (xy 154.093387 62.111595) (xy 153.939851 62.029528) (xy 153.773255 61.978992) (xy 153.600001 61.961928) (xy 152.299999 61.961928)
+        (xy 152.16 61.975717) (xy 152.16 56.203711) (xy 152.203937 56.159774) (xy 152.317205 55.990256) (xy 152.395226 55.801898)
+        (xy 152.435 55.601939) (xy 152.435 55.398061) (xy 152.395226 55.198102) (xy 152.317205 55.009744) (xy 152.203937 54.840226)
+        (xy 152.059774 54.696063) (xy 151.890256 54.582795) (xy 151.701898 54.504774) (xy 151.501939 54.465) (xy 151.298061 54.465)
+        (xy 151.098102 54.504774) (xy 150.909744 54.582795) (xy 150.740226 54.696063) (xy 150.62464 54.811649) (xy 147.222991 51.41)
+        (xy 155.217101 51.41)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 135.897038 71.677962) (xy 136.031614 71.788405) (xy 136.18515 71.870472) (xy 136.351746 71.921008) (xy 136.525 71.938072)
+        (xy 136.791859 71.938072) (xy 137.618796 72.76501) (xy 136.012814 72.76501) (xy 134.807803 71.56) (xy 135.80023 71.56)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 145.661997 69.561799) (xy 145.661928 69.562498) (xy 145.661928 70.087502) (xy 145.678992 70.260756) (xy 145.729528 70.427352)
+        (xy 145.811595 70.580887) (xy 145.922038 70.715462) (xy 146.056613 70.825905) (xy 146.210148 70.907972) (xy 146.376744 70.958508)
+        (xy 146.549998 70.975572) (xy 147.266314 70.975572) (xy 147.275754 71.071412) (xy 147.276008 71.073995) (xy 147.319464 71.217256)
+        (xy 147.390036 71.349286) (xy 147.43802 71.407754) (xy 147.48501 71.465011) (xy 147.514008 71.488809) (xy 147.813118 71.787919)
+        (xy 147.811928 71.8) (xy 147.811928 72.76501) (xy 144.971907 72.76501) (xy 144.980537 72.754494) (xy 145.039502 72.64418)
+        (xy 145.075812 72.524482) (xy 145.088072 72.4) (xy 145.088072 71) (xy 145.075812 70.875518) (xy 145.039502 70.75582)
+        (xy 145.035 70.747397) (xy 145.035 68.934802)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 138.131928 51.5) (xy 138.131928 53.2) (xy 138.144188 53.324482) (xy 138.180498 53.44418) (xy 138.239463 53.554494)
+        (xy 138.318815 53.651185) (xy 138.357915 53.683273) (xy 138.376339 53.74401) (xy 138.389454 53.787246) (xy 138.460026 53.919276)
+        (xy 138.481695 53.945679) (xy 138.554999 54.035001) (xy 138.584003 54.058804) (xy 139.765 55.239802) (xy 139.765 55.301939)
+        (xy 139.804774 55.501898) (xy 139.882795 55.690256) (xy 139.996063 55.859774) (xy 140.140226 56.003937) (xy 140.309744 56.117205)
+        (xy 140.498102 56.195226) (xy 140.698061 56.235) (xy 140.901939 56.235) (xy 141.101898 56.195226) (xy 141.290256 56.117205)
+        (xy 141.459774 56.003937) (xy 141.603937 55.859774) (xy 141.717205 55.690256) (xy 141.795226 55.501898) (xy 141.816233 55.396289)
+        (xy 141.930442 55.348982) (xy 142.09996 55.235714) (xy 142.244123 55.091551) (xy 142.357391 54.922033) (xy 142.435412 54.733675)
+        (xy 142.475186 54.533716) (xy 142.475186 54.329838) (xy 142.435412 54.129879) (xy 142.357391 53.941521) (xy 142.244123 53.772003)
+        (xy 142.241613 53.769493) (xy 142.27 53.75432) (xy 142.33582 53.789502) (xy 142.455518 53.825812) (xy 142.58 53.838072)
+        (xy 143.23 53.838072) (xy 143.310356 53.830158) (xy 144.040001 54.559803) (xy 144.04 56.965) (xy 143.898061 56.965)
+        (xy 143.698102 57.004774) (xy 143.509744 57.082795) (xy 143.340226 57.196063) (xy 143.196063 57.340226) (xy 143.082795 57.509744)
+        (xy 143.004774 57.698102) (xy 142.965 57.898061) (xy 142.965 58.101939) (xy 143.004774 58.301898) (xy 143.082795 58.490256)
+        (xy 143.196063 58.659774) (xy 143.240001 58.703712) (xy 143.24 60.735198) (xy 143.060627 60.914572) (xy 143.017205 60.809744)
+        (xy 142.903937 60.640226) (xy 142.759774 60.496063) (xy 142.598072 60.388017) (xy 142.598072 58.8) (xy 142.585812 58.675518)
+        (xy 142.549502 58.55582) (xy 142.490537 58.445506) (xy 142.411185 58.348815) (xy 142.314494 58.269463) (xy 142.20418 58.210498)
+        (xy 142.084482 58.174188) (xy 141.96 58.161928) (xy 141.31 58.161928) (xy 141.185518 58.174188) (xy 141.06582 58.210498)
+        (xy 141 58.24568) (xy 140.93418 58.210498) (xy 140.814482 58.174188) (xy 140.69 58.161928) (xy 140.04 58.161928)
+        (xy 139.915518 58.174188) (xy 139.79582 58.210498) (xy 139.73 58.24568) (xy 139.66418 58.210498) (xy 139.544482 58.174188)
+        (xy 139.42 58.161928) (xy 138.77 58.161928) (xy 138.645518 58.174188) (xy 138.52582 58.210498) (xy 138.415506 58.269463)
+        (xy 138.318815 58.348815) (xy 138.239463 58.445506) (xy 138.180498 58.55582) (xy 138.144188 58.675518) (xy 138.131928 58.8)
+        (xy 138.131928 60.5) (xy 138.144188 60.624482) (xy 138.180498 60.74418) (xy 138.239463 60.854494) (xy 138.318815 60.951185)
+        (xy 138.37609 60.998189) (xy 138.389454 61.042246) (xy 138.460026 61.174276) (xy 138.530378 61.259999) (xy 138.555 61.290001)
+        (xy 138.583998 61.313799) (xy 138.976196 61.705997) (xy 138.999999 61.735001) (xy 139.073146 61.795031) (xy 139.115723 61.829974)
+        (xy 139.179005 61.863799) (xy 139.247753 61.900546) (xy 139.391014 61.944003) (xy 139.502667 61.955) (xy 139.502676 61.955)
+        (xy 139.539999 61.958676) (xy 139.577322 61.955) (xy 140.168389 61.955) (xy 140.502972 62.289584) (xy 140.372038 62.397038)
+        (xy 140.261595 62.531614) (xy 140.179528 62.68515) (xy 140.128992 62.851746) (xy 140.111928 63.025) (xy 140.111928 63.975)
+        (xy 140.128992 64.148254) (xy 140.179528 64.31485) (xy 140.261595 64.468386) (xy 140.372038 64.602962) (xy 140.506614 64.713405)
+        (xy 140.5642 64.744185) (xy 140.615026 64.839274) (xy 140.661092 64.895405) (xy 140.71 64.954999) (xy 140.738998 64.978797)
+        (xy 140.9858 65.225599) (xy 140.969463 65.245506) (xy 140.910498 65.35582) (xy 140.874188 65.475518) (xy 140.861928 65.6)
+        (xy 140.861928 67) (xy 140.874188 67.124482) (xy 140.910498 67.24418) (xy 140.969463 67.354494) (xy 141.048815 67.451185)
+        (xy 141.145506 67.530537) (xy 141.25582 67.589502) (xy 141.375518 67.625812) (xy 141.5 67.638072) (xy 141.85 67.638072)
+        (xy 141.974482 67.625812) (xy 142 67.618071) (xy 142.025518 67.625812) (xy 142.15 67.638072) (xy 142.5 67.638072)
+        (xy 142.624482 67.625812) (xy 142.65 67.618071) (xy 142.675518 67.625812) (xy 142.8 67.638072) (xy 143.15 67.638072)
+        (xy 143.274482 67.625812) (xy 143.3 67.618071) (xy 143.325518 67.625812) (xy 143.45 67.638072) (xy 143.515 67.638072)
+        (xy 143.515001 70.361928) (xy 143.45 70.361928) (xy 143.325518 70.374188) (xy 143.3 70.381929) (xy 143.274482 70.374188)
+        (xy 143.15 70.361928) (xy 142.8 70.361928) (xy 142.675518 70.374188) (xy 142.65 70.381929) (xy 142.624482 70.374188)
+        (xy 142.5 70.361928) (xy 142.15 70.361928) (xy 142.025518 70.374188) (xy 142 70.381929) (xy 141.974482 70.374188)
+        (xy 141.85 70.361928) (xy 141.5 70.361928) (xy 141.375518 70.374188) (xy 141.35 70.381929) (xy 141.324482 70.374188)
+        (xy 141.2 70.361928) (xy 140.85 70.361928) (xy 140.725518 70.374188) (xy 140.7 70.381929) (xy 140.674482 70.374188)
+        (xy 140.55 70.361928) (xy 140.2 70.361928) (xy 140.075518 70.374188) (xy 140.05 70.381929) (xy 140.024482 70.374188)
+        (xy 139.9 70.361928) (xy 139.55 70.361928) (xy 139.46 70.370792) (xy 139.46 70.324822) (xy 139.463676 70.287499)
+        (xy 139.46 70.250176) (xy 139.46 70.250167) (xy 139.449003 70.138514) (xy 139.405546 69.995253) (xy 139.334974 69.863224)
+        (xy 139.240001 69.747499) (xy 139.211004 69.723702) (xy 138.313072 68.825771) (xy 138.313072 68.299998) (xy 138.296008 68.126744)
+        (xy 138.245472 67.960148) (xy 138.163405 67.806613) (xy 138.052962 67.672038) (xy 137.918387 67.561595) (xy 137.764852 67.479528)
+        (xy 137.598256 67.428992) (xy 137.425002 67.411928) (xy 136.899998 67.411928) (xy 136.835001 67.41833) (xy 136.835001 65.6)
+        (xy 138.911928 65.6) (xy 138.911928 67) (xy 138.924188 67.124482) (xy 138.960498 67.24418) (xy 139.019463 67.354494)
+        (xy 139.098815 67.451185) (xy 139.195506 67.530537) (xy 139.30582 67.589502) (xy 139.425518 67.625812) (xy 139.55 67.638072)
+        (xy 139.9 67.638072) (xy 140.024482 67.625812) (xy 140.14418 67.589502) (xy 140.254494 67.530537) (xy 140.351185 67.451185)
+        (xy 140.430537 67.354494) (xy 140.489502 67.24418) (xy 140.525812 67.124482) (xy 140.538072 67) (xy 140.538072 65.6)
+        (xy 140.525812 65.475518) (xy 140.489502 65.35582) (xy 140.430537 65.245506) (xy 140.351185 65.148815) (xy 140.254494 65.069463)
+        (xy 140.14418 65.010498) (xy 140.024482 64.974188) (xy 139.9 64.961928) (xy 139.55 64.961928) (xy 139.425518 64.974188)
+        (xy 139.30582 65.010498) (xy 139.195506 65.069463) (xy 139.098815 65.148815) (xy 139.019463 65.245506) (xy 138.960498 65.35582)
+        (xy 138.924188 65.475518) (xy 138.911928 65.6) (xy 136.835001 65.6) (xy 136.835001 63.412324) (xy 136.838677 63.375001)
+        (xy 136.835001 63.337678) (xy 136.835001 63.337668) (xy 136.824004 63.226015) (xy 136.780547 63.082754) (xy 136.757114 63.038914)
+        (xy 136.709975 62.950724) (xy 136.6388 62.863998) (xy 136.615002 62.835) (xy 136.586005 62.811203) (xy 136.335 62.560198)
+        (xy 136.335 62.498061) (xy 136.295226 62.298102) (xy 136.217205 62.109744) (xy 136.103937 61.940226) (xy 135.959774 61.796063)
+        (xy 135.790256 61.682795) (xy 135.601898 61.604774) (xy 135.421404 61.568872) (xy 135.645629 60.582283) (xy 135.774463 60.528918)
+        (xy 136.042252 60.349987) (xy 136.269987 60.122252) (xy 136.448918 59.854463) (xy 136.572168 59.556912) (xy 136.635 59.241033)
+        (xy 136.635 58.918967) (xy 136.572168 58.603088) (xy 136.448918 58.305537) (xy 136.269987 58.037748) (xy 136.232461 58.000222)
+        (xy 136.935035 54.908896) (xy 136.982026 54.820982) (xy 137.104108 54.418534) (xy 137.145329 54) (xy 137.144202 53.98856)
+        (xy 137.730239 51.41) (xy 138.140792 51.41)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 145.015002 59.453393) (xy 145.015001 60.22268) (xy 145.011325 60.260003) (xy 145.015001 60.297325) (xy 145.015001 60.297335)
+        (xy 145.025998 60.408988) (xy 145.053606 60.5) (xy 145.069455 60.552249) (xy 145.140027 60.684279) (xy 145.179872 60.732829)
+        (xy 145.235 60.800004) (xy 145.264004 60.823807) (xy 146.602511 62.162315) (xy 146.60251 64.114976) (xy 146.473975 64.075986)
+        (xy 146.362322 64.064989) (xy 146.324989 64.061312) (xy 146.287656 64.064989) (xy 144.550572 64.064989) (xy 144.550572 62.849997)
+        (xy 144.533508 62.676743) (xy 144.482972 62.510148) (xy 144.400905 62.356612) (xy 144.290463 62.222037) (xy 144.155888 62.111595)
+        (xy 144.062906 62.061895) (xy 144.511004 61.613798) (xy 144.540001 61.590001) (xy 144.634974 61.474276) (xy 144.705546 61.342247)
+        (xy 144.749003 61.198986) (xy 144.76 61.087333) (xy 144.76 61.087324) (xy 144.763676 61.050001) (xy 144.76 61.012678)
+        (xy 144.76 59.198392)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 149.665 56.001612) (xy 149.665001 63.575225) (xy 149.646255 63.577071) (xy 149.498418 63.621916) (xy 149.362171 63.694742)
+        (xy 149.256371 63.78157) (xy 148.57252 63.097719) (xy 148.57252 59.224803) (xy 148.576196 59.18748) (xy 148.57252 59.150157)
+        (xy 148.57252 57.599845) (xy 148.576196 57.56252) (xy 148.57252 57.525195) (xy 148.57252 57.525187) (xy 148.561523 57.413534)
+        (xy 148.518066 57.270273) (xy 148.447494 57.138244) (xy 148.352521 57.022519) (xy 148.323523 56.998722) (xy 148.290071 56.965269)
+        (xy 148.370472 56.81485) (xy 148.421008 56.648254) (xy 148.438072 56.475) (xy 148.438072 55.525) (xy 148.421008 55.351746)
+        (xy 148.370472 55.18515) (xy 148.288405 55.031614) (xy 148.177962 54.897038) (xy 148.043386 54.786595) (xy 147.88985 54.704528)
+        (xy 147.723254 54.653992) (xy 147.55 54.636928) (xy 147.05 54.636928) (xy 146.876746 54.653992) (xy 146.71015 54.704528)
+        (xy 146.556614 54.786595) (xy 146.553149 54.789438) (xy 146.459774 54.696063) (xy 146.290256 54.582795) (xy 146.101898 54.504774)
+        (xy 145.901939 54.465) (xy 145.698061 54.465) (xy 145.56 54.492462) (xy 145.56 54.282325) (xy 145.563676 54.245)
+        (xy 145.56 54.207675) (xy 145.56 54.207667) (xy 145.549003 54.096014) (xy 145.505546 53.952753) (xy 145.434974 53.820724)
+        (xy 145.340001 53.704999) (xy 145.311003 53.681201) (xy 143.868072 52.238271) (xy 143.868072 51.934999) (xy 145.598388 51.934999)
+      )
+    )
+  )
+  (zone (net 2) (net_name "Net-(C3-Pad2)") (layer F.Cu) (tstamp 605146D7) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 126.25 77.25) (xy 110.25 77.25) (xy 110.25 71.5) (xy 126.25 71.5)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 126.123 76.340001) (xy 116.032898 76.340001) (xy 116.35255 76.020349) (xy 116.61356 75.629721) (xy 116.793346 75.195679)
+        (xy 116.885 74.734902) (xy 116.885 74.265098) (xy 116.793346 73.804321) (xy 116.61356 73.370279) (xy 116.35255 72.979651)
+        (xy 116.020349 72.64745) (xy 115.629721 72.38644) (xy 115.195679 72.206654) (xy 114.734902 72.115) (xy 114.265098 72.115)
+        (xy 113.804321 72.206654) (xy 113.370279 72.38644) (xy 112.979651 72.64745) (xy 112.66 72.967101) (xy 112.66 71.627)
+        (xy 126.123 71.627)
+      )
+    )
+  )
+  (zone (net 8) (net_name Batt+) (layer B.Cu) (tstamp 605146D4) (hatch edge 0.508)
+    (priority 3)
+    (connect_pads yes (clearance 0.508))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 132.1 77.3) (xy 128.2 78) (xy 128.1 72.4) (xy 132 72.4)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 131.953381 76.34) (xy 128.297378 76.34) (xy 128.233949 72.78801) (xy 128.359774 72.703937) (xy 128.403711 72.66)
+        (xy 131.878279 72.66)
       )
     )
   )
