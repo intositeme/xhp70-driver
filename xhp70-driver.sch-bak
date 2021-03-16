@@ -557,5 +557,138 @@ Wire Wire Line
 Wire Wire Line
 	4100 6550 5150 6550
 Wire Wire Line
+<<<<<<< Updated upstream
 	2100 5650 3250 5650
+=======
+	2100 5650 2300 5650
+$Comp
+L Device:C C7
+U 1 1 6043B427
+P 1200 5800
+F 0 "C7" H 1315 5846 50  0000 L CNN
+F 1 "0.33uf" H 1315 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1238 5650 50  0001 C CNN
+F 3 "~" H 1200 5800 50  0001 C CNN
+	1    1200 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 6043C0F6
+P 2300 5800
+F 0 "C8" H 2415 5846 50  0000 L CNN
+F 1 "0.1uf" H 2415 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2338 5650 50  0001 C CNN
+F 3 "~" H 2300 5800 50  0001 C CNN
+	1    2300 5800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 5650
+Wire Wire Line
+	2300 5650 3250 5650
+Wire Wire Line
+	1800 6150 1800 5950
+Wire Wire Line
+	1800 5950 2300 5950
+Connection ~ 1800 5950
+Wire Wire Line
+	1200 5650 1500 5650
+Wire Wire Line
+	1100 5650 1200 5650
+Connection ~ 1200 5650
+Wire Wire Line
+	1200 5950 1800 5950
+Wire Wire Line
+	4050 2750 4050 2900
+Wire Wire Line
+	4050 2900 4400 2900
+Connection ~ 4050 2750
+$Comp
+L power:+5V #PWR0104
+U 1 1 6047367D
+P 3250 5650
+F 0 "#PWR0104" H 3250 5500 50  0001 C CNN
+F 1 "+5V" H 3265 5823 50  0000 C CNN
+F 2 "" H 3250 5650 50  0001 C CNN
+F 3 "" H 3250 5650 50  0001 C CNN
+	1    3250 5650
+	1    0    0    -1  
+$EndComp
+Connection ~ 3250 5650
+$Comp
+L power:+5V #PWR0105
+U 1 1 60473F1D
+P 6350 4700
+F 0 "#PWR0105" H 6350 4550 50  0001 C CNN
+F 1 "+5V" H 6365 4873 50  0000 C CNN
+F 2 "" H 6350 4700 50  0001 C CNN
+F 3 "" H 6350 4700 50  0001 C CNN
+	1    6350 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6800 4850 2    50   Input ~ 0
+NTC
+Text GLabel 3850 6550 2    50   Input ~ 0
+NTC
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 604AD982
+P 8000 6000
+F 0 "SW1" H 8000 6367 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 8000 6276 50  0000 C CNN
+F 2 "" H 7850 6160 50  0001 C CNN
+F 3 "~" H 8000 6260 50  0001 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 8300 5900 2    50   Input ~ 0
+EC_Int
+Wire Wire Line
+	8300 6100 8750 6100
+Text GLabel 5200 6400 1    50   Input ~ 0
+EC_Int
+Text GLabel 7700 5900 0    50   Input ~ 0
+EC_A
+Wire Wire Line
+	7350 6000 7700 6000
+Text GLabel 7700 6100 0    50   Input ~ 0
+EC_B
+Text GLabel 5000 6300 1    50   Input ~ 0
+EC_A
+Text GLabel 5200 6500 3    50   Input ~ 0
+EC_B
+$Comp
+L power:GND #PWR?
+U 1 1 604E195D
+P 6350 5500
+F 0 "#PWR?" H 6350 5250 50  0001 C CNN
+F 1 "GND" H 6355 5327 50  0000 C CNN
+F 2 "" H 6350 5500 50  0001 C CNN
+F 3 "" H 6350 5500 50  0001 C CNN
+	1    6350 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604F3390
+P 7350 6000
+F 0 "#PWR?" H 7350 5750 50  0001 C CNN
+F 1 "GND" H 7355 5827 50  0000 C CNN
+F 2 "" H 7350 6000 50  0001 C CNN
+F 3 "" H 7350 6000 50  0001 C CNN
+	1    7350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 604F37B3
+P 8750 6100
+F 0 "#PWR?" H 8750 5850 50  0001 C CNN
+F 1 "GND" H 8755 5927 50  0000 C CNN
+F 2 "" H 8750 6100 50  0001 C CNN
+F 3 "" H 8750 6100 50  0001 C CNN
+	1    8750 6100
+	1    0    0    -1  
+$EndComp
+>>>>>>> Stashed changes
 $EndSCHEMATC
