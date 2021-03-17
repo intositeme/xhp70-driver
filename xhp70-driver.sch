@@ -237,7 +237,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L7805 U3
+L Regulator_Linear:AP2127N-3.0 U3
 U 1 1 6039EB96
 P 1800 5650
 F 0 "U3" H 1800 5892 50  0000 C CNN
