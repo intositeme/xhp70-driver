@@ -236,17 +236,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    3250 6550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:L7805 U3
-U 1 1 6039EB96
-P 1800 5650
-F 0 "U3" H 1800 5892 50  0000 C CNN
-F 1 "L7805" H 1800 5801 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1825 5500 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 1800 5600 50  0001 C CNN
-	1    1800 5650
-	1    0    0    -1  
-$EndComp
 Text GLabel 4400 2300 0    50   Input ~ 0
 PWM
 Text GLabel 3850 6650 2    50   Input ~ 0
@@ -541,12 +530,6 @@ Wire Wire Line
 Wire Wire Line
 	4100 6550 5150 6550
 Wire Wire Line
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-	2100 5650 3250 5650
-=======
-=======
->>>>>>> rev.2a
 	2100 5650 2300 5650
 $Comp
 L Device:C C7
@@ -613,14 +596,6 @@ F 3 "" H 6350 4700 50  0001 C CNN
 	1    6350 4700
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Text GLabel 6350 5500 3    50   Input ~ 0
-GND
->>>>>>> rev.2a
-=======
->>>>>>> rev.2c
 Text GLabel 6800 4850 2    50   Input ~ 0
 NTC
 Text GLabel 3850 6550 2    50   Input ~ 0
@@ -636,34 +611,6 @@ F 3 "~" H 8000 6260 50  0001 C CNN
 	1    8000 6000
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-$Comp
-L power:+5V #PWR0106
-U 1 1 604AEFBE
-P 8750 6100
-F 0 "#PWR0106" H 8750 5950 50  0001 C CNN
-F 1 "+5V" H 8765 6273 50  0000 C CNN
-F 2 "" H 8750 6100 50  0001 C CNN
-F 3 "" H 8750 6100 50  0001 C CNN
-	1    8750 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR0107
-U 1 1 604AF574
-P 7350 6000
-F 0 "#PWR0107" H 7350 5850 50  0001 C CNN
-F 1 "+5V" H 7365 6173 50  0000 C CNN
-F 2 "" H 7350 6000 50  0001 C CNN
-F 3 "" H 7350 6000 50  0001 C CNN
-	1    7350 6000
-	1    0    0    -1  
-$EndComp
->>>>>>> rev.2a
-=======
->>>>>>> rev.2c
 Text GLabel 8300 5900 2    50   Input ~ 0
 EC_Int
 Wire Wire Line
@@ -680,10 +627,6 @@ Text GLabel 5000 6300 1    50   Input ~ 0
 EC_A
 Text GLabel 5200 6500 3    50   Input ~ 0
 EC_B
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> rev.2c
 $Comp
 L power:GND #PWR?
 U 1 1 604E195D
@@ -717,16 +660,15 @@ F 3 "" H 8750 6100 50  0001 C CNN
 	1    8750 6100
 	1    0    0    -1  
 $EndComp
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> rev.2a
-=======
->>>>>>> rev.2c
+$Comp
+L LED-driver:78L05-SOT-23 U3
+U 1 1 60811EC2
+P 1800 5500
+F 0 "U3" H 1800 5575 50  0000 C CNN
+F 1 "78L05-SOT-23" H 1800 5484 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 1800 5500 50  0001 C CNN
+F 3 "" H 1800 5500 50  0001 C CNN
+	1    1800 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
